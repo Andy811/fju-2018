@@ -14,7 +14,8 @@ public class Person {
 	}
 
 	public float bmi() {
-		float bmi = (float) weight / ((float) height * (float) height);
+		float bmi = weight / (height * height);
 		return bmi;
+
 	}
 }
