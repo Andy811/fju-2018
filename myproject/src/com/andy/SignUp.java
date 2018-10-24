@@ -9,7 +9,7 @@ public class SignUp {
 		Scanner scanner = new Scanner(System.in);
 		String line = scanner.nextLine();
 		System.out.println("*" + line + "*");
-		boolean adult = line.toUpperCase().equals("Yes");
+		boolean adult = line.toUpperCase().equals("YES");
 		if (adult) {
 			System.out.println("Your age?");
 			int age = scanner.nextInt();
